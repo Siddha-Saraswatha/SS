@@ -432,5 +432,8 @@ nav ul li a{font-size: 15px;}
     .w3-spin{
         display: inline-block;
     }
+    .column-am{
+        width:100%;
+    }
 }
 
