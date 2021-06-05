@@ -82,89 +82,11 @@
 
 
 
-
-
-
-
-<body class="background"></body> 
-
-
-
-<script>    
-    var currentDateTime = new Date();
-var year = currentDateTime.getFullYear();
-var month = (currentDateTime.getMonth() + 1);
-var date = (currentDateTime.getDate() + 1);
-
-if(date < 10) {
-  date = '0' + date;
-}
-if(month < 10) {
-  month = '0' + month;
-}
-
-var dateTomorrow = year + "-" + month + "-" + date;
-var checkinElem = document.querySelector("#checkin-date");
-var checkoutElem = document.querySelector("#checkout-date");
-
-checkinElem.setAttribute("min", dateTomorrow);
-
-checkinElem.onchange = function () {
-    checkoutElem.setAttribute("min", this.value);
-}
-</script>
-
- <Body1>
-    <center><h1>Kundli Prediction</h1></center><br>
-    <form action="https://formspree.io/f/xrgrpllq" method="post">
-        <div class="elem-group">
-          <input type="text" id="name" name="visitor_name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
-        </div><br>
-        <div class="elem-group">
-          <input type="text" id="name"name="Place of Birth" placeholder="Place of Birth" required>
-        </div><br>
-        <div class="elem-group">
-        <input type="time" id="appt" name="appt" min="00:00" max="24:00" required>
-        </div> <br>
-        <div class="elem-group">
-          <input type="date" id="Birth-date" name="Birth-date"placeholder="Date of Birth" required>
-        </div><br>
-        <div class="elem-group">
-          <select id="Gender" name="Gender"  placeholder="Gender"required>
-              <option value="">Gender</option>
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
-          </select>
-        </div><br>
-        <div class="elem-group">
-          <select id="Prediction" name="Prediction for"  placeholder="Prediction for"required>
-              <option value="">Choose a type of reading from the List</option>
-              <option value="Full Birth Chart">Full Birth Chart</option>
-              <option value="Finance">Finance</option>
-              <option value="Health">Health</option>
-              <option value="Career">Career</option>
-              <option value="Relationship">Relationship</option>
-          </select>
-        </div><br>
-        <div class="elem-group">
-          <input type="email" id="email" name="visitor_email" placeholder="email" required>
-        </div><br>
-        <div class="elem-group">
-          <input type="tel" id="phone" name="visitor_phone" placeholder="9704903377" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
-        </div><br>
-        <div class="elem-group">
-          <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." ></textarea>
-        </div><br>
-        <div align="center"><input type="checkbox"required><label>I Accept terms & conditions</label></div><br>
-        <center><button type="submit">Book Now</button></center>
-
-      </form>
-    
-
-</Body1>
-</div>
-
-
+<br>
+<br>
+<center>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7HuodRNZlkh14cIFwCAtRE3imL4n3YyT1SoQqZcdi8sVlxA/viewform?embedded=true" width="100%" height="1980" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
 
 
    

@@ -86,67 +86,7 @@
 
 <body class="background"></body> 
 
-
-
-<script>    
-    var currentDateTime = new Date();
-var year = currentDateTime.getFullYear();
-var month = (currentDateTime.getMonth() + 1);
-var date = (currentDateTime.getDate() + 1);
-
-if(date < 10) {
-  date = '0' + date;
-}
-if(month < 10) {
-  month = '0' + month;
-}
-
-var dateTomorrow = year + "-" + month + "-" + date;
-var checkinElem = document.querySelector("#checkin-date");
-var checkoutElem = document.querySelector("#checkout-date");
-
-checkinElem.setAttribute("min", dateTomorrow);
-
-checkinElem.onchange = function () {
-    checkoutElem.setAttribute("min", this.value);
-}
-</script>
-
- <Body1>
-    <center><h1>Premium Muhurtham</h1></center><br>
-    <form action="https://formspree.io/f/xrgrpllq" method="post">
-        <div class="elem-group">
-          <input type="text" id="name" name="visitor_name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
-        </div><br>
-        <div class="elem-group">
-          <input type="email" id="email" name="visitor_email" placeholder="email" required>
-        </div><br>
-        <div class="elem-group">
-          <input type="tel" id="phone" name="visitor_phone" placeholder="9704903377" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
-        </div><br>
-        <div class="elem-group">
-          <select id="Muhurtham for" name="muhurtham for"  placeholder="Muhurtham for"required>
-              <option value="">Choose a type of Muhurtham from the List</option>
-              <option value="Annaprasana muhurtham ">Annaprasana muhurtham </option>
-              <option value="Aksharabhyasam muhurtham">Aksharabhyasam muhurtham</option>
-              <option value="Upanayana muhurtham">Upanayana muhurtham</option>
-              <option value=" Gruhapravesam muhurtham"> Gruhapravesam muhurtham</option>
-              <option value="Vivaha muhurtham">Vivaha muhurtham</option>
-          </select>                      
-        </div><br>
-        
-        <div class="elem-group">
-          <textarea id="message" name="visitor_message" placeholder="Add your Requirement." ></textarea>
-        </div><br>
-      
-        <div align="center"><input type="checkbox"required><label>I Accept terms & conditions</label></div><br>
-        <center><button type="submit">Book Now</button></center>
-
-      </form>
-    
-
-</Body1>
-</div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdW590xkQBzlmZ-uHg4nG2scdNQe0xK_JsPL2AmA2GKIRuyeQ/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 
