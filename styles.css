@@ -439,9 +439,10 @@ nav ul li a{font-size: 15px;}
     .column-am{
         width:100%;
     }
-}
-.f-s{
+    .f-s{
 
-    width:50%;
-    height:110%;
- }
+        width:75%;
+        height:110%;
+     }
+}
+
