@@ -27,7 +27,30 @@
                 <body>
                 <div id="header"></div>
 
-
+                <style>
+                    .collapsible {
+                      background-color: #777;
+                      color: white;
+                      cursor: pointer;
+                      padding: 18px;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none;
+                      font-size: 15px;
+                    }
+                    
+                    .active, .collapsible:hover {
+                      background-color: #555;
+                    }
+                    
+                    .content {
+                      padding: 0 18px;
+                      display: none;
+                      overflow: hidden;
+                      background-color: #f1f1f1;
+                    }
+                    </style>
 
     <body  class="background"></body>
     <div class="wrapper">
@@ -35,7 +58,8 @@
         <br><br><br>
         <h1 align="center">Books</h1><br>
         <h2 align="left">
-        సంధ్యా వందనం<br>
+            <button type="button" class="collapsible">U+2304 సంధ్యా వందనం</button>
+            <div class="content"> <br>
         <a href="zb4.html">1. నిత్య సంధ్యా వందనం</a><br>
         <a href="zb5.html">2. యజ్ఞ్నోపవీత ధారణ</a><br><br>
         సూక్తాని <br>
