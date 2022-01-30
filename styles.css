@@ -163,6 +163,7 @@ display: none;}
 .cpr{
             margin-right: 42px;
             text-align: center;
+            background-color: rgba(255, 235, 205, 0.671);
             }
             .row:after {
                 content: "";
