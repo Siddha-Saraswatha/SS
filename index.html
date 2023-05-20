@@ -25,18 +25,20 @@
               });
               </script> 
               </head>
-              <script>
-                alert("Please!! do not try to take any kinds of screenshot of the content");
-                html {
-         user-select: none;
-      } 
-      @media print {
-         html,
-         body {
-            display: none;
-         }
-      }
-             </script>
+              <style>
+         
+                /* We are stopping user from
+                printing our webpage */
+                @media print {
+         
+                    html,
+                    body {
+         
+                        /* Hide the whole page */
+                        display: none;
+                    }
+                }
+            </style>
 
               <body>
               <div id="header"></div>
