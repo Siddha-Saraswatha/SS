@@ -27,6 +27,15 @@
               </head>
               <script>
                 alert("Please!! do not try to take any kinds of screenshot of the content");
+                html {
+         user-select: none;
+      } 
+      @media print {
+         html,
+         body {
+            display: none;
+         }
+      }
              </script>
 
               <body>
