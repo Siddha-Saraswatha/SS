@@ -291,7 +291,7 @@ tr {
 }
 
 body {
- height: 100vh;
+ height: 100%;
  width: 100%;
  background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
 }
